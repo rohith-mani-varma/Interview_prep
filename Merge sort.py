@@ -1,7 +1,6 @@
 def merge_sort(arr):
 # [5, 2, 9, 1, 5, 6]
     if len(arr) > 1:
-
         mid = len(arr) // 2
         left_arr = arr[:mid]
         right_arr = arr[mid:]
